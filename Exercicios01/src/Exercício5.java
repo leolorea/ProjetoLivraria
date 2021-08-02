@@ -13,9 +13,9 @@ public class Exercício5 {
 	int lixoC = scanner.nextInt();
 	
 	
-	if (lixoA < lixoB || lixoA< lixoC) {
+	if (lixoA < lixoB && lixoA< lixoC) {
 		System.out.println(	"O primeiro lixo deve ser carregado");
-	}else if(lixoB < lixoA || lixoB < lixoC) {
+	}else if(lixoB < lixoA && lixoB < lixoC) {
 		System.out.println("O segundo lixo deve ser carregado");
 	}else { System.out.println("O terceiro lixo deve ser carregado");}
 	

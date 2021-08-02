@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Exercicio4 {
+	static String a;
 	public static void main (String[] args) {
 		
 		
@@ -14,6 +15,8 @@ public class Exercicio4 {
 		if (distancia <= 70) {
 			System.out.println("Arma ativada");
 			}else {System.out.println("Arma desativada");}
+		
+		System.out.println(a);
 		
 		scanner.close();
 	}
