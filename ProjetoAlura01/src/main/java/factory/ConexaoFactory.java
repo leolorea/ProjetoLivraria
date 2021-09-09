@@ -11,7 +11,7 @@ public class ConexaoFactory {
 		
 		String url = "jdbc:mysql://localhost:3306/livraria?useTimezone=true&serverTimezone=UTC";
 		String user = "root";
-		String senha = "irxn4q7z";
+		String senha = "root";
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 		
